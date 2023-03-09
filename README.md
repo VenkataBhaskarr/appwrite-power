@@ -74,6 +74,6 @@ const getTodos = databases.listDocuments("collection id from which you want to r
 ```
 
 
-7. Now the second scenerio is setting up a database with differnt data for different users in clear terms maintaining whole appwrite dashboard in the code  itself and also for every user authenticated we will create his/her own collection to store the data.
+7. Now the second scenerio is setting up a database with differnt data for different users in clear terms maintaining whole appwrite dashboard in the code  itself and also for every user authenticated we will create his/her own collection to store the data (this is one way and the traditional way is to store the data in a single collection with the particular user specific userID being assigned to that particular user data which is used to fetch the data ).
 
 
